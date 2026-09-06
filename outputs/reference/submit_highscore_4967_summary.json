@@ -1,0 +1,90 @@
+{
+  "strategy": {
+    "base": "test_b_ops2_nonhas_entitykeep_has267",
+    "drop": "all USE",
+    "add": "non-USE relations from original1000 strict3 conservative if endpoints exist",
+    "source": "K:\\浩然\\CCL\\solution\\solution\\outputs\\testB_original1000_4member_strict3_relfilter_conservative_submit.json"
+  },
+  "online_reference": {
+    "champion_total": 0.4925,
+    "champion_NER": 0.7358,
+    "champion_RE": 0.3303,
+    "aff_loi_failed_total": 0.4854,
+    "aff_loi_failed_RE": 0.3184
+  },
+  "champion_stats": {
+    "records": 600,
+    "entities": 4790,
+    "relations": 1945,
+    "bad_relation_endpoints": 0,
+    "empty": 0,
+    "ABS": 439,
+    "BIS": 83,
+    "BM": 335,
+    "CHR": 168,
+    "CROP": 512,
+    "CROSS": 36,
+    "GENE": 785,
+    "GST": 95,
+    "MRK": 215,
+    "QTL": 353,
+    "TRT": 1283,
+    "VAR": 486,
+    "AFF": 647,
+    "CON": 442,
+    "HAS": 267,
+    "LOI": 456,
+    "OCI": 94,
+    "USE": 39
+  },
+  "output_stats": {
+    "records": 600,
+    "entities": 4790,
+    "relations": 2006,
+    "bad_relation_endpoints": 0,
+    "empty": 0,
+    "ABS": 439,
+    "BIS": 83,
+    "BM": 335,
+    "CHR": 168,
+    "CROP": 512,
+    "CROSS": 36,
+    "GENE": 785,
+    "GST": 95,
+    "MRK": 215,
+    "QTL": 353,
+    "TRT": 1283,
+    "VAR": 486,
+    "AFF": 697,
+    "CON": 454,
+    "HAS": 267,
+    "LOI": 491,
+    "OCI": 97
+  },
+  "delta_from_champion": {
+    "AFF": 50,
+    "CON": 12,
+    "LOI": 35,
+    "OCI": 3,
+    "USE": -39,
+    "relations": 61
+  },
+  "added_by_label": {
+    "LOI": 35,
+    "AFF": 50,
+    "CON": 12,
+    "OCI": 3
+  },
+  "dropped_by_label": {
+    "USE": 39
+  },
+  "skipped_missing_endpoint_by_label": {
+    "CON": 71,
+    "AFF": 77,
+    "LOI": 55,
+    "OCI": 8
+  },
+  "entity_hash_matches_champion": true,
+  "output_json": "C:\\Users\\Zzl410410\\Documents\\Codex\\2026-06-28\\c-users-zzl410410-documents-codex-2026-3\\outputs\\test_b_filter_then_augment\\test_b_ops2_entitykeep_has267_drop_all_USE_plus_orig1000_strict3_noUSE.json",
+  "output_zip": "C:\\Users\\Zzl410410\\Documents\\Codex\\2026-06-28\\c-users-zzl410410-documents-codex-2026-3\\outputs\\test_b_filter_then_augment\\test_b_ops2_entitykeep_has267_drop_all_USE_plus_orig1000_strict3_noUSE_submit.zip"
+}

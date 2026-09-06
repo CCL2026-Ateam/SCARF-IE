@@ -1,0 +1,8 @@
+work/
+outputs/from_scratch/
+src/pipeline_reference/.env
+src/pipeline_reference/cache/
+src/pipeline_reference/outputs/
+__pycache__/
+*.pyc
+
